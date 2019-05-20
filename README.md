@@ -16,7 +16,7 @@ Hosted at [Firebase Hosting](https://firebase.google.com/products/hosting/) for 
 
 Source code edited in [Visual Studio Code](https://code.visualstudio.com/).
 
-Build status: [![Build Status](https://travis-ci.com/itsolver/msp-marketing-site.svg?branch=master)](https://travis-ci.org/itsolver/msp-marketing-site)
+Build status: [![Build Status](https://travis-ci.com/itsolver/msp-marketing-site.svg?branch=master)](https://travis-ci.com/itsolver/msp-marketing-site)
 
 ## Lighthouse reports
 
