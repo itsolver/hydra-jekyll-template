@@ -13,7 +13,7 @@
         "type": 301
       },
       {
-        "source": "/adduser",
+        "source": "/add",
         "destination": "https://support.itsolver.net/hc/en-au/articles/360000946275-G-Suite-New-User",
         "type": 301
       },
@@ -208,7 +208,7 @@
         "type": 301
       },
       {
-        "source": "/removeuser",
+        "source": "/remove",
         "destination": "https://support.itsolver.net/hc/en-au/articles/360000945835-G-Suite-Offboard-Employee",
         "type": 301
       },
