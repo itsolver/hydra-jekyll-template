@@ -13,6 +13,11 @@
         "type": 301
       },
       {
+        "source": "/adduser",
+        "destination": "https://support.itsolver.net/hc/en-au/articles/360000946275-G-Suite-New-User",
+        "type": 301
+      },
+      {
         "source": "/angus.vcf",
         "destination": "/Angus_McLauchlan.vcf",
         "type": 301
@@ -200,6 +205,11 @@
       {
         "source": "/register-premium",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLScH4RfxSp7WVT3b5pAVdHo1np_Kcdt01MJQepKvBT4JpkNTZg/viewform?usp=sf_link",
+        "type": 301
+      },
+      {
+        "source": "/removeuser",
+        "destination": "https://support.itsolver.net/hc/en-au/articles/360000945835-G-Suite-Offboard-Employee",
         "type": 301
       },
       {
