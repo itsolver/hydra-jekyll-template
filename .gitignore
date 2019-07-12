@@ -84,6 +84,7 @@ typings/
 functions/lib/*.js
 *.js.map
 functions/.stripetestconfig
+.firebase/*.cache
 
 # Bundle local vendor environment
 vendor/
