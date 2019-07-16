@@ -6,9 +6,6 @@
 		"type": "git",
 		"url": "git://github.com/itsolver/msp-marketing-site/"
 	},
-	"engines": {
-		"node": "8"
-	},
 	"keywords": [
 		"jekyll",
 		"gulp"
