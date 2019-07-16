@@ -1,55 +1,58 @@
 {
-  "name": "itsolver",
-  "version": "1.0.0",
-  "description": "Marketing website for IT Solver, a managed service provider. Built with Gulp + Jekyll + Travis CI + Firebase",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/itsolver/msp-marketing-site/"
-  },
-  "keywords": [
-    "jekyll",
-    "gulp"
-  ],
-  "author": "Angus McLauchlan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/itsolver/msp-marketing-site/issues"
-  },
-  "scripts": {
-    "build": "gulp build --prod",
-    "serve": "gulp build --prod && gulp serve --prod",
-    "deploy": "firebase deploy --only hosting",
-    "all": "gulp build --prod && cd functions && npm run build && cd .. && firebase deploy"
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.4.10",
-    "browser-sync": "^2.26.3",
-    "critical": "^1.3.4",
-    "del": "^4.0.0",
-    "gulp": "^4.0.0",
-    "gulp-changed": "^3.2.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-newer": "^1.4.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-pretty-data": "^0.1.2",
-    "gulp-responsive": "^2.13.0",
-    "gulp-rev": "^9.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-shell": "^0.7.0",
-    "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-util": "^3.0.8",
-    "require-dir": "^1.2.0",
-    "shelljs": "^0.8.3",
-    "submit-sitemap": "^0.1.3",
-    "yargs": "^13.2.2"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 5%",
-    "IE 9"
-  ]
+	"name": "itsolver",
+	"version": "1.0.0",
+	"description": "Marketing website for IT Solver, a managed service provider. Built with Gulp + Jekyll + Travis CI + Firebase",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/itsolver/msp-marketing-site/"
+	},
+	"engines": {
+		"node": "8"
+	},
+	"keywords": [
+		"jekyll",
+		"gulp"
+	],
+	"author": "Angus McLauchlan",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/itsolver/msp-marketing-site/issues"
+	},
+	"scripts": {
+		"build": "gulp build --prod",
+		"serve": "gulp build --prod && gulp serve --prod",
+		"deploy": "firebase deploy --only hosting",
+		"all": "gulp build --prod && cd functions && npm run build && cd .. && firebase deploy"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.4.10",
+		"browser-sync": "^2.26.3",
+		"critical": "^1.3.4",
+		"del": "^4.0.0",
+		"gulp": "^4.0.0",
+		"gulp-changed": "^3.2.0",
+		"gulp-cssnano": "^2.1.3",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^2.0.2",
+		"gulp-imagemin": "^5.0.3",
+		"gulp-newer": "^1.4.0",
+		"gulp-postcss": "^8.0.0",
+		"gulp-pretty-data": "^0.1.2",
+		"gulp-responsive": "^2.13.0",
+		"gulp-rev": "^9.0.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-shell": "^0.7.0",
+		"gulp-size": "^3.0.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-util": "^3.0.8",
+		"require-dir": "^1.2.0",
+		"shelljs": "^0.8.3",
+		"submit-sitemap": "^0.1.3",
+		"yargs": "^13.2.2"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"> 5%",
+		"IE 9"
+	]
 }
