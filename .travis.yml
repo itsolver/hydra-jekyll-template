@@ -1,55 +1,55 @@
 branches:
   only:
-  - /.*/
+    - /.*/
 language: ruby
 rvm:
-- 2.5.3
+  - 2.5.3
 dist: xenial
 node_js: 12.13.1
 cache:
   bundler: true
   directories:
-  - node_modules
+    - node_modules
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 notifications:
   pushover:
     on_success: always
     on_failure: always
     api_key:
-      secure: "aGCc23inkUSEf/5VEmndQlkF0yz49f30NaUuIQq8Ub0EDQHpKLti2b2YoTyt6qWLKKLOlsp8yfozBIkvr3RLODGoxtnFqaoOKKcstX2aoqkglcdzp2P3IUz8Qwfx7sCwMPIPprIrU93GKn0k2RQl5tvt7LZLfs44YkqMSogZk+ggxYoMYco51SqQNzjcpTbUtLnK/m/B9NsHktAvLQwwhOf5nawI5R5cRsM+YIayvFcsM8VCJX6bvBo89g6hDst5BNYisCjtHlpvcrZbVm5JdWoyT2z8pvWfqsy1p0Weqtt3+SPDFiJAA/0s5xq+6m3K2Z6ewkpiu6WElogLgbhfIS9dqDvlJUkI5qGKbPL/pfL4m+1BJ8UpfGpgw6Lajaq+Vt6XsXeQBqdUyCYHN/zTc2x596SaqLMIRjrQ2wbosDjt/iecHVg/m7goK6p5XsUMXmwgRL6pp67/huvJU8gVsE/FnQ/7l/EIr5rfGkR8iknuwONG+CJIZ4Idx8GfnK2qhqWE7N2QrPeUyv66jIMtRU97mkhGlQ4eE4NeIHzQ8z4wKS1k80ucaQWEIU0ejY4BEmfPFvcxu7VUTDrhRBcIPNhkUPO81gkcrNWz7ukOoDHNQ+uyb0dOWYU8a+2/8y68mhqMxu2LH5xd62sU38u4hdYYuibF6oxRUBAlkzqY0Y4="
+      secure: 'aGCc23inkUSEf/5VEmndQlkF0yz49f30NaUuIQq8Ub0EDQHpKLti2b2YoTyt6qWLKKLOlsp8yfozBIkvr3RLODGoxtnFqaoOKKcstX2aoqkglcdzp2P3IUz8Qwfx7sCwMPIPprIrU93GKn0k2RQl5tvt7LZLfs44YkqMSogZk+ggxYoMYco51SqQNzjcpTbUtLnK/m/B9NsHktAvLQwwhOf5nawI5R5cRsM+YIayvFcsM8VCJX6bvBo89g6hDst5BNYisCjtHlpvcrZbVm5JdWoyT2z8pvWfqsy1p0Weqtt3+SPDFiJAA/0s5xq+6m3K2Z6ewkpiu6WElogLgbhfIS9dqDvlJUkI5qGKbPL/pfL4m+1BJ8UpfGpgw6Lajaq+Vt6XsXeQBqdUyCYHN/zTc2x596SaqLMIRjrQ2wbosDjt/iecHVg/m7goK6p5XsUMXmwgRL6pp67/huvJU8gVsE/FnQ/7l/EIr5rfGkR8iknuwONG+CJIZ4Idx8GfnK2qhqWE7N2QrPeUyv66jIMtRU97mkhGlQ4eE4NeIHzQ8z4wKS1k80ucaQWEIU0ejY4BEmfPFvcxu7VUTDrhRBcIPNhkUPO81gkcrNWz7ukOoDHNQ+uyb0dOWYU8a+2/8y68mhqMxu2LH5xd62sU38u4hdYYuibF6oxRUBAlkzqY0Y4='
     users:
-      secure: "n8BdLWvA99T3+cKcx5S62tSTp4BpJ74FnIGFEAe4yM18puRUotAK7skvN/nS6km7ipwo2Kk+/NuTE4ZEn0UuHAyncOTMA4jUzhAE2JAGMfBjOGxQdHlv777iCKpqohnceD3d2FLo51/2WKjB3m30BGY6vX242SVxJa/W7meJZtm9rVdcR/KF2Zv8ZwQ2Epl7/yxJf8Lti3jP8yru9+K7hNi7+i+K8/ZNIEzrCmOZ2+F9dDUKcijVz95oI77dvizlU68KS70db1hi7iqVU2HcnHGFsx/ogLL7Ft0+LFbGRLRWZHqLqCyw9i6lwm/DxQM+rHFvvgvBuWLpiy53ZMMzvli63OLsNOKfmm/3Ovjij311QOGvgSjN6d3ExF4oiP86MYgy+rOvGDZl+S++kwF+3wLERBSXJXxYkXgcQveXe+OUKgCxOF4DhcA0/LsudCRxHc/h034TTsqGyT7llJmjux7go38ggHbSbLWU3cL4DElCKJIHiT4V3H6gpBi7OPJLo1RB95kBMzHgV1vMs8enaX6NxsS2dO56JPPCrl5thgrjGJ6C1tsLvegH2CbazI+as5vi8/zFdNy3ZIr39cjUH2i0SaO3l4P3BPemiS6UNjmtWZLJAjxV/t4uHRNm2Qyf8oh5zgqTpKxoirE/jfxzzk7ZRx5ZfshVmvx93GVuYYI="
+      secure: 'n8BdLWvA99T3+cKcx5S62tSTp4BpJ74FnIGFEAe4yM18puRUotAK7skvN/nS6km7ipwo2Kk+/NuTE4ZEn0UuHAyncOTMA4jUzhAE2JAGMfBjOGxQdHlv777iCKpqohnceD3d2FLo51/2WKjB3m30BGY6vX242SVxJa/W7meJZtm9rVdcR/KF2Zv8ZwQ2Epl7/yxJf8Lti3jP8yru9+K7hNi7+i+K8/ZNIEzrCmOZ2+F9dDUKcijVz95oI77dvizlU68KS70db1hi7iqVU2HcnHGFsx/ogLL7Ft0+LFbGRLRWZHqLqCyw9i6lwm/DxQM+rHFvvgvBuWLpiy53ZMMzvli63OLsNOKfmm/3Ovjij311QOGvgSjN6d3ExF4oiP86MYgy+rOvGDZl+S++kwF+3wLERBSXJXxYkXgcQveXe+OUKgCxOF4DhcA0/LsudCRxHc/h034TTsqGyT7llJmjux7go38ggHbSbLWU3cL4DElCKJIHiT4V3H6gpBi7OPJLo1RB95kBMzHgV1vMs8enaX6NxsS2dO56JPPCrl5thgrjGJ6C1tsLvegH2CbazI+as5vi8/zFdNy3ZIr39cjUH2i0SaO3l4P3BPemiS6UNjmtWZLJAjxV/t4uHRNm2Qyf8oh5zgqTpKxoirE/jfxzzk7ZRx5ZfshVmvx93GVuYYI='
   email:
     recipients:
       - angus@itsolver.net
     on_success: never # default: change
     on_failure: always # default: always
 before_install:
-- nvm install 12.13.1
-- nvm use 12.13.1
-- gem update --system
-- gem update bundler
-- gem install bundler
+  - nvm install 12.13.1
+  - nvm use 12.13.1
+  - gem update --system
+  - gem update bundler
+  - gem install bundler
 install:
-- npm install -g firebase-tools
-- npm install -g gulp-cli
-- npm install -g snyk
-- firebase use itsolver-499d1 --token "$PROD_FIREBASE_TOKEN"
-# Unset stripe config before setting environment variables
-- firebase functions:config:unset stripe --token "$PROD_FIREBASE_TOKEN"
-- firebase functions:config:set stripe.publishable_key="$STRIPE_PUBLISHABLE_KEY" --token "$PROD_FIREBASE_TOKEN"
-- firebase functions:config:set stripe.secret_key="$STRIPE_SECRET_KEY" --token "$PROD_FIREBASE_TOKEN"
-- firebase functions:config:set stripe.webhook_secret="$STRIPE_WEBHOOK_SECRET" --token "$PROD_FIREBASE_TOKEN"
-- cd functions && npm install && cd ..
-- npm install
-- bundle install
-- snyk test
+  - npm install -g firebase-tools
+  - npm install -g gulp-cli
+  - npm install -g snyk
+  - firebase use project-441569246119 --token "$PROD_FIREBASE_TOKEN"
+  # Unset stripe config before setting environment variables
+  - firebase functions:config:unset stripe --token "$PROD_FIREBASE_TOKEN"
+  - firebase functions:config:set stripe.publishable_key="$STRIPE_PUBLISHABLE_KEY" --token "$PROD_FIREBASE_TOKEN"
+  - firebase functions:config:set stripe.secret_key="$STRIPE_SECRET_KEY" --token "$PROD_FIREBASE_TOKEN"
+  - firebase functions:config:set stripe.webhook_secret="$STRIPE_WEBHOOK_SECRET" --token "$PROD_FIREBASE_TOKEN"
+  - cd functions && npm install && cd ..
+  - npm install
+  - bundle install
+  - snyk test
 script:
-- cd functions && npm run build
-- travis_retry gulp build --prod
+  - cd functions && npm run build
+  - travis_retry gulp build --prod
 after_success:
-- firebase --non-interactive deploy --token "$PROD_FIREBASE_TOKEN"
-- gulp submit
-- snyk monitor
+  - firebase --non-interactive deploy --token "$PROD_FIREBASE_TOKEN"
+  - gulp submit
+  - snyk monitor
