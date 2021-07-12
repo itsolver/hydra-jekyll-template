@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'breakpoint'
-gem 'html-proofer'
+gem 'html-proofer', '>= 3.15.3'
 gem 'rake'
 
 # Jekyll
